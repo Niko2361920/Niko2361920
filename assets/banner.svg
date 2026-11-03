@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Nicolás Cuastumal, Ingeniería de Sistemas y Computación">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#101c33"/>
+      <stop offset="1" stop-color="#0d2a3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="track"><rect x="70" y="222" width="420" height="3" rx="1.5"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .name  { font: 700 58px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f8fafc; letter-spacing: -1px; }
+      .role  { font: 500 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; }
+      .tags  { font: 400 16px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: #38bdf8; letter-spacing: 1px; }
+      .sweep { animation: sweep 5s ease-in-out infinite; }
+      .node  { animation: pulse 2.6s ease-in-out infinite; }
+      .node2 { animation: pulse 2.6s ease-in-out infinite 0.9s; }
+      .node3 { animation: pulse 2.6s ease-in-out infinite 1.8s; }
+      @keyframes sweep { 0% { transform: translateX(-420px); } 100% { transform: translateX(420px); } }
+      @keyframes pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+
+  <!-- red de nodos decorativa -->
+  <g stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.2" fill="none">
+    <path d="M900 60 L1010 110 L1120 70"/>
+    <path d="M1010 110 L980 200 L1100 220"/>
+    <path d="M900 60 L980 200"/>
+  </g>
+  <g fill="#38bdf8">
+    <circle class="node"  cx="900"  cy="60"  r="5"/>
+    <circle class="node2" cx="1010" cy="110" r="6"/>
+    <circle class="node3" cx="1120" cy="70"  r="4"/>
+    <circle class="node"  cx="980"  cy="200" r="5"/>
+    <circle class="node2" cx="1100" cy="220" r="4"/>
+  </g>
+
+  <text class="tags" x="70" y="92">// sistemas · full stack · iot · datos</text>
+  <text class="name" x="68" y="156">Nicolás Cuastumal</text>
+  <text class="role" x="70" y="196">Ingeniería de Sistemas y Computación · Pontificia Universidad Javeriana Cali</text>
+
+  <rect x="70" y="222" width="420" height="3" rx="1.5" fill="#1e293b"/>
+  <g clip-path="url(#track)">
+    <rect class="sweep" x="70" y="222" width="420" height="3" rx="1.5" fill="url(#accent)"/>
+  </g>
+</svg>
