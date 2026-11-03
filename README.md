@@ -14,23 +14,15 @@
 
 Estudio Ingeniería de Sistemas y Computación y trabajo en la intersección de tres cosas: **aplicaciones full stack**, **IoT** y **datos aplicados a salud**. Me interesa el ciclo completo de un sistema, desde modelar el problema hasta desplegarlo y medir si funciona.
 
-```ts
-const nicolas = {
-  formacion: "Ingeniería de Sistemas y Computación · PUJ Cali",
-  investigacion: "Semillero Innovar para Servir (desde enero de 2026)",
-  enfoque: ["Full stack", "IoT en tiempo real", "Datos y salud"],
-  construyendo: ["JaveCupos", "Come Jave", "Predicción de capacidad pulmonar"],
-  principios: ["Código legible", "Decisiones documentadas", "Entregar, medir, iterar"],
-} as const;
-```
+### Actualmente
 
-## Cómo trabajo
+- 🔬 **Semillero Innovar para Servir** (PUJ Cali, desde enero de 2026): programo, reviso y documento un modelo de predicción de capacidad pulmonar.
+- 🚗 **JaveCupos**: app de carpooling universitario con GPS en tiempo real y alertas SOS.
+- 🍽️ **Come Jave**: API modular en NestJS con cliente web en React.
 
-<div align="center">
+### Me interesa
 
-<img src="./assets/flow.svg" alt="Flujo de trabajo: problema real, modelado y diseño, prototipo funcional, despliegue, medición e iteración" width="100%" />
-
-</div>
+`Full stack` · `IoT en tiempo real` · `Datos aplicados a salud` · `Arquitectura de software`
 
 ## Proyectos
 
