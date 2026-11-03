@@ -26,16 +26,11 @@ const nicolas = {
 
 ## Cómo trabajo
 
-```mermaid
-flowchart LR
-    A[Problema real] --> B[Modelado y diseño]
-    B --> C[Prototipo funcional]
-    C --> D[Despliegue]
-    D --> E[Medición]
-    E -->|iteración| B
-    classDef n fill:#0b1220,stroke:#38bdf8,color:#e2e8f0;
-    class A,B,C,D,E n;
-```
+<div align="center">
+
+<img src="./assets/flow.svg" alt="Flujo de trabajo: problema real, modelado y diseño, prototipo funcional, despliegue, medición e iteración" width="100%" />
+
+</div>
 
 ## Proyectos
 
@@ -70,7 +65,7 @@ flowchart LR
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Niko2361920-0b1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Niko2361920)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectemos-0b1220?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/TU-USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectemos-0b1220?style=for-the-badge&logo=linkedin&logoColor=38bdf8)](https://www.linkedin.com/in/nicolascuastumal/)
 [![Correo](https://img.shields.io/badge/Correo-Escr%C3%ADbeme-0b1220?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cuastumalnicolas21@gmail.com)
 
 </div>
